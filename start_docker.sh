@@ -2,7 +2,7 @@
 set -eu
 
 
-DOCKER_IMAGE=onnx-export-content-vec:20230401_183130
+DOCKER_IMAGE=dannadori/onnx-export-content-vec:20230401_184324
 
 docker run --gpus all --rm -ti --shm-size=256M \
     -v `pwd`/work:/work \
