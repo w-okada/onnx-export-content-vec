@@ -25,10 +25,13 @@ bash start_docker.sh
 
 You can find the converted model `checkpoint_best_legacy_500_simple.onnx`
 
+Size is 280M!! Great!!!!!!
+
 ```
-$ ls work/
-checkpoint_best_legacy_500.onnx  checkpoint_best_legacy_500_simple.onnx
-checkpoint_best_legacy_500.pt
+$ ls -lah work/
+280M   checkpoint_best_legacy_500.onnx
+1.3G   checkpoint_best_legacy_500.pt
+280M   checkpoint_best_legacy_500_simple.onnx
 ```
 
 ## Track Record of Use
