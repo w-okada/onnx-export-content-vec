@@ -1,0 +1,22 @@
+{
+  "name": "onnx-export-content-vec",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:docker": "date +%Y%m%d%H%M%S > docker/dummy && DOCKER_BUILDKIT=1 docker build -f docker/Dockerfile docker/ -t onnx-export-content-vec",
+    "push:docker": "bash script/001_pushDocker.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w-okada/onnx-export-content-vec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w-okada/onnx-export-content-vec/issues"
+  },
+  "homepage": "https://github.com/w-okada/onnx-export-content-vec#readme"
+}
