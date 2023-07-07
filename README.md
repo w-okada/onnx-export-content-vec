@@ -2,6 +2,11 @@
 
 Convert contentvec model from pyTorch model to ONNX.
 
+# !!!! NOTE  !!!!
+This repository is archved.
+
+New is [here](https://github.com/w-okada/onnx-export-content-vec-multi-version)
+
 # Usage
 
 ## Preparation
